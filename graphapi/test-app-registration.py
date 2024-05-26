@@ -4,7 +4,7 @@ from msgraph import GraphServiceClient
 
 async def main():
     """
-    使用托管身份憑據從Azure AD中獲取所有應用註冊並打印每個應用的顯示名稱和object ID。
+    使用托管身份憑據從 Azure AD 中獲取所有應用註冊並印出每個應用的顯示名稱和 object ID。
     """
 
     # 使用托管身份憑證
@@ -19,7 +19,7 @@ async def main():
     # 提取應用程式列表
     apps = apps_response.value
 
-    # 打印每個應用的object ID和其他信息
+    # 打印每個應用的 object ID 和其他信息
     for app in apps:
         print(f"App Display Name: {app.display_name}, Object ID: {app.id}")
 
