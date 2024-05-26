@@ -1,6 +1,6 @@
 #### 使用托管身份憑證從 Microsoft Graph API 中獲取群組列表並印出每個群組的名稱和 ID。
 ##### test-group.py
-* (MS list group ref)[https://learn.microsoft.com/en-us/graph/api/group-list?view=graph-rest-1.0&tabs=python]
+* [MS list group ref](https://learn.microsoft.com/en-us/graph/api/group-list?view=graph-rest-1.0&tabs=python)
 
 ```json
 [
