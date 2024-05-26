@@ -1,3 +1,22 @@
+#### 使用托管身份憑證從 Microsoft Graph API 中獲取群組列表並印出每個群組的名稱和 ID。
+##### test-group.py
+```json
+[
+    {
+        "Group Display Name": "GraphAPI",
+        "Group ID": "fffffff-4847-443e-9a44-xxxxxxxxx",
+        "Description": "GraphAPI",
+        "Mail": null,
+        "Mail Nickname": "09196145-7",
+        "Visibility": null,
+        "Created DateTime": "2024-05-25 15:09:00",
+        "Group Types": [],
+        "Security Enabled": true
+    }
+]
+```
+
+
 ####  使用托管身份憑證從 Azure AD 中獲取所有應用註冊並印出每個應用的顯示名稱和object ID
 ##### test-me.py
 
